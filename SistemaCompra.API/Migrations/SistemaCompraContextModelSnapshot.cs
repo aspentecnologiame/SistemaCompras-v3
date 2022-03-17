@@ -48,13 +48,13 @@ namespace SistemaCompra.API.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("ProdutoId")
+                    b.Property<Guid>("ProdutoId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Qtde")
                         .HasColumnType("int");
 
-                    b.Property<Guid?>("SolicitacaoCompraId")
+                    b.Property<Guid>("SolicitacaoCompraId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -107,11 +107,15 @@ namespace SistemaCompra.API.Migrations
                 {
                     b.HasOne("SistemaCompra.Domain.ProdutoAggregate.Produto", "Produto")
                         .WithMany()
-                        .HasForeignKey("ProdutoId");
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("SistemaCompra.Domain.SolicitacaoCompraAggregate.SolicitacaoCompra", null)
                         .WithMany("Itens")
-                        .HasForeignKey("SolicitacaoCompraId");
+                        .HasForeignKey("SolicitacaoCompraId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SistemaCompra.Domain.SolicitacaoCompraAggregate.SolicitacaoCompra", b =>

@@ -12,11 +12,14 @@ namespace SistemaCompra.Application.SolicitacaoCompra.Command.RegistrarCompra
     public class RegistrarCompraCommandHandler : CommandHandler, IRequestHandler<RegistrarCompraCommand, bool>
     {
         private readonly ProdutoAgg.IProdutoRepository _produtoRepository;
+        private readonly SolicitaCaoCompraAgg.IItemRepository _itemRepository;
         private readonly SolicitaCaoCompraAgg.ISolicitacaoCompraRepository _solicitacaoCompraRepository;
-        public RegistrarCompraCommandHandler(ProdutoAgg.IProdutoRepository produtoRepository, SolicitaCaoCompraAgg.ISolicitacaoCompraRepository solicitacaoCompraRepository, IUnitOfWork uow, IMediator mediator) : base(uow, mediator)
+        public RegistrarCompraCommandHandler(ProdutoAgg.IProdutoRepository produtoRepository, SolicitaCaoCompraAgg.ISolicitacaoCompraRepository solicitacaoCompraRepository,
+            SolicitaCaoCompraAgg.IItemRepository itemRepository, IUnitOfWork uow, IMediator mediator) : base(uow, mediator)
         {
             _produtoRepository = produtoRepository;
             _solicitacaoCompraRepository = solicitacaoCompraRepository;
+            _itemRepository = itemRepository;
         }
 
         public Task<bool> Handle(RegistrarCompraCommand request, CancellationToken cancellationToken)
@@ -32,6 +35,8 @@ namespace SistemaCompra.Application.SolicitacaoCompra.Command.RegistrarCompra
             solicitacaoCompra.RegistrarCompra(solicitacaoCompra.Itens);
 
             _solicitacaoCompraRepository.RegistrarCompra(solicitacaoCompra);
+
+            _itemRepository.Registrar(solicitacaoCompra.Itens);
 
             Commit();
             PublishEvents(solicitacaoCompra.Events);

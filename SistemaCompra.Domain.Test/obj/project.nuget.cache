@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hbE5RXSKEAgNW2tLDIr8NiSIHER3Obzn3pjBSmn2R+KglpRPYGcEj1l0gZW78PKSY23w5k5Lh57WjsYD903jcg==",
+  "dgSpecHash": "pxn9LByYT48fOj1Nt0t1gqY+cYjgoQQ7I5KS8HRajPQVA4nu0Lk3kiPvhIuoHAUVye1jVe2IICNqu9U5nqKaBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Test\\SistemaCompra.Domain.Test.csproj",
+  "projectFilePath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Test\\SistemaCompra.Domain.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcos\\.nuget\\packages\\coverlet.collector\\1.0.1\\coverlet.collector.1.0.1.nupkg.sha512",
     "C:\\Users\\Marcos\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",

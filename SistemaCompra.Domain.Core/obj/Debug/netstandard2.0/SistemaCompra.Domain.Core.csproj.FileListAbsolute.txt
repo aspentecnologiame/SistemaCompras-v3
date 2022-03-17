@@ -24,3 +24,13 @@ C:\Users\Marcos\source\repos\teste-pratico\SistemaCompras-v3\SistemaCompra.Domai
 C:\Users\Marcos\source\repos\teste-pratico\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.csproj.CoreCompileInputs.cache
 C:\Users\Marcos\source\repos\teste-pratico\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.dll
 C:\Users\Marcos\source\repos\teste-pratico\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.pdb
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.deps.json
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.dll
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.pdb
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.csproj.AssemblyReference.cache
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.AssemblyInfo.cs
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.dll
+C:\Users\Marcos\source\repos\SistemaCompras-v3\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.pdb

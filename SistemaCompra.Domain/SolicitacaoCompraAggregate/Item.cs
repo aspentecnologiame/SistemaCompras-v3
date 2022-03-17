@@ -8,6 +8,7 @@ namespace SistemaCompra.Domain.SolicitacaoCompraAggregate
 {
     public class Item : Entity
     {
+        public SolicitacaoCompra SolicitacaoCompra { get; set; }
         public Produto Produto { get; set; }
         public int Qtde { get; set; }
 
@@ -15,6 +16,13 @@ namespace SistemaCompra.Domain.SolicitacaoCompraAggregate
 
         public Item(Produto produto, int qtde)
         {
+            Produto = produto ?? throw new ArgumentNullException(nameof(produto));
+            Qtde = qtde;
+        }
+
+        public Item(SolicitacaoCompra solicitacaoCompra, Produto produto, int qtde)
+        {
+            SolicitacaoCompra = solicitacaoCompra ?? throw new ArgumentNullException(nameof(solicitacaoCompra));
             Produto = produto ?? throw new ArgumentNullException(nameof(produto));
             Qtde = qtde;
         }

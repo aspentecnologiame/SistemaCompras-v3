@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj": {}
+    "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj": {
+    "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
         "projectName": "SistemaCompra.Application",
-        "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
+        "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
         "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Application\\obj\\",
+        "outputPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
-                "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
+              "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
               },
-              "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj"
+              "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
+    "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
         "projectName": "SistemaCompra.Domain.Core",
-        "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
+        "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
+    "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
         "projectName": "SistemaCompra.Domain",
-        "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
+        "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
         "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,8 +165,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj"
+              "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj"
               }
             }
           }
@@ -202,14 +202,14 @@
         }
       }
     },
-    "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
+    "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj",
         "projectName": "SistemaCompra.Infra.Data",
-        "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -226,8 +226,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
-                "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
+              "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
               }
             }
           }

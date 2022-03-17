@@ -208,11 +208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.CrossCutting\\SistemaCompra.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.CrossCutting\\SistemaCompra.CrossCutting.csproj",
       "projectName": "SistemaCompra.CrossCutting",
-      "projectPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.CrossCutting\\SistemaCompra.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.CrossCutting\\SistemaCompra.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcos\\source\\repos\\teste-pratico\\SistemaCompras-v3\\SistemaCompra.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\Marcos\\source\\repos\\SistemaCompras-v3\\SistemaCompra.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -32,7 +32,7 @@ namespace SistemaCompra.Domain.SolicitacaoCompraAggregate
 
         public void AdicionarItem(Produto produto, int qtde)
         {
-            Itens.Add(new Item(produto, qtde));
+            Itens.Add(new Item(this, produto, qtde));
         }
 
         public void RegistrarCompra(IEnumerable<Item> itens)

@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using SistemaCompra.Domain.Core;
 using SistemaCompra.Domain.Core.Model;
+using SistemaCompra.Infra.Data.Item;
 using SistemaCompra.Infra.Data.Produto;
 using SistemaCompra.Infra.Data.SolicitacaoCompra;
 using ProdutoAgg = SistemaCompra.Domain.ProdutoAggregate;
@@ -15,6 +16,8 @@ namespace SistemaCompra.Infra.Data
 
         public SistemaCompraContext(DbContextOptions options) : base(options) { }
         public DbSet<ProdutoAgg.Produto> Produtos { get; set; }
+
+        public DbSet<SolicitacaoAgg.Item> Itens { get; set; }
         public DbSet<SolicitacaoAgg.SolicitacaoCompra> SlicitacaoCompra { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -22,6 +25,7 @@ namespace SistemaCompra.Infra.Data
             modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
+            modelBuilder.ApplyConfiguration(new ItemConfiguration());
             modelBuilder.ApplyConfiguration(new SolicitacaoCompraConfiguration());
         }
 

@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using SistemaCompra.Application.Produto;
+using SistemaCompra.Infra.Data.Item;
 using SistemaCompra.Domain.ProdutoAggregate;
 using SistemaCompra.Domain.SolicitacaoCompraAggregate;
 using SistemaCompra.Infra.Data;
@@ -37,6 +38,7 @@ namespace SistemaCompra.API
 
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<ISolicitacaoCompraRepository, SolicitacaoCompraRepository>();
+            services.AddScoped<IItemRepository, ItemRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddDbContext<SistemaCompraContext>(options =>
